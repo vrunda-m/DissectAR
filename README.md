@@ -54,9 +54,11 @@ DissectAR/
 ```bash
 npm install
 node server.js
-
-Then open:
+```
+Then open your browser and visit:
 http://localhost:3000
+
+---
 
 🎓 Use Cases
 
