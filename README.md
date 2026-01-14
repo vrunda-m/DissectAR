@@ -60,49 +60,28 @@ http://localhost:3000
 
 ---
 
-🎓 Use Cases
-
-Medical & biology education
-
-Virtual anatomy labs
-
-AR-based classrooms
-
-Self-paced anatomy learning
-
-🌱 Future Enhancements
-
-Multi-organ systems (digestive, nervous, circulatory)
-
-Quiz overlays in AR
-
-Voice-guided dissection
-
-Multi-user collaborative AR labs
-
-Mobile app integration
-
-👩‍💻 Author
-
-Vrunda
-BE – Artificial Intelligence & Machine Learning
-Passionate about AR, AI, and immersive education
-
-📜 License
-
-This project is for educational and research purposes.
-
+## 🎓 Use Cases
+- Medical and biology education  
+- Virtual anatomy laboratories  
+- AR-based classrooms  
+- Self-paced anatomy learning  
 
 ---
 
-## Final polish ✨
-Rename repo to **Dissect-AR**  
-Add a demo GIF later  
-Pin this repo on your profile  
+## 🌱 Future Enhancements
+- Multi-organ systems (digestive, nervous, circulatory)  
+- Quiz overlays integrated within AR scenes  
+- Voice-guided dissection experience  
+- Multi-user collaborative AR labs  
+- Mobile application integration  
 
-If you want, next we can:
-- Turn this into a **research-grade project**
-- Add **screenshots + demo flow**
-- Prep it for **hackathons / papers / grants**
+---
 
-Dissect AR deserves a spotlight 🔦🫀
+## 👩‍💻 Author
+**Vrunda M**  
+BE – Artificial Intelligence & Machine Learning  
+
+---
+
+## 📜 License
+This project is intended for educational and research purposes only.
