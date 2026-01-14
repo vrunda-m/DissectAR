@@ -1,0 +1,247 @@
+/* Reset & base */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1c0000;
+  color: #fff;
+}
+body {
+  padding-top: 70px;
+}
+
+/* Navbar */
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #ff3c3c;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  padding: 2rem 1rem 0.5rem;
+  font-size: 3rem;
+  font-family: 'Segoe UI Black', sans-serif;
+  color: #ff3c3c;
+}
+#bioview3d-heading {
+  font-size: 2.5rem;
+  color: #ff3c3c;
+  font-family: 'Segoe UI Black', sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 6px #ff3c3c;
+}
+
+
+h2.tagline {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ffcccc;
+  margin-bottom: 2rem;
+}
+
+/* Sections full width */
+section {
+  padding: 50px 2rem;
+  width: 100vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Specific section styling */
+#about {
+  padding: 2rem 1rem;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+#about > h2 {
+  color: #ff3c3c;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 6px #ff3c3c;
+}
+
+/* About content layout */
+#about .about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+}
+
+/* Paragraph styling */
+#about .about-text {
+  flex: 1 1 45%;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #f8d7d7;
+  max-width: 600px;
+  text-align: left;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 3px rgba(255, 60, 60, 0.7);
+}
+
+/* Image styling */
+#about img {
+  flex: 1 1 45%;
+  max-width: 550px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(255, 60, 60, 0.4);
+  object-fit: cover;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  #about .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  #about .about-text,
+  #about img {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+/* Carousel container full width */
+.carousel-container {
+  width: 100vw;
+  padding: 0 2.5rem;
+  margin: 0 0 2rem 0;
+  max-width: none;
+}
+
+/* Carousel images */
+.carousel-inner img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(255, 0, 0, 0.6);
+  border-radius: 50%;
+}
+
+/* Grid full width with padding */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  padding: 2rem;
+  width: 100vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Card styles */
+.card {
+  background: #330000;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  transition: background 0.3s;
+  box-shadow: 0 0 15px rgba(255, 50, 50, 0.2);
+  color: #f5bcbc;
+}
+.card:hover {
+  background: #440000;
+}
+.card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.card h3 {
+  margin: 0.5rem 0;
+  color: #ff4d4d;
+}
+.card p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.card button {
+  background: #ff4d4d;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.card button:hover {
+  background: #e60000;
+}
+
+/* Viewer overlay */
+#viewer a-scene {
+  height: 100%;
+  width: 100%;
+}
+#viewer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  display: none;
+  z-index: 9999;
+}
+#viewer.active {
+  display: block;
+}
+#closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 3rem;
+  background: transparent;
+  border: none;
+  color: #ff3c3c;
+  cursor: pointer;
+  z-index: 10000;
+  padding: 0;
+  line-height: 1;
+}
+
+/* Navbar maroon theme */
+.navbar-maroon {
+  background-color: #800000;
+}
+.navbar-maroon .navbar-brand,
+.navbar-maroon .nav-link {
+  color: #fff;
+}
+.navbar-maroon .nav-link:hover,
+.navbar-maroon .nav-link:focus {
+  color: #ff6666;
+}
+.navbar-maroon .navbar-toggler {
+  border-color: #ff6666;
+}
+.navbar-maroon .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ff6666' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
