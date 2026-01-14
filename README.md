@@ -92,6 +92,7 @@ Passionate about AR, AI, and immersive education
 
 This project is for educational and research purposes.
 
+
 ---
 
 ## Final polish ✨
