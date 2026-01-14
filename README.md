@@ -40,3 +40,66 @@ Dissect AR bridges this gap by offering:
 ---
 
 ## 📁 Project Structure
+DissectAR/
+│── node_modules/
+│── public/
+│ └── assets, models, markers
+│── server.js
+│── package.json
+│── package-lock.json
+
+---
+
+## ⚙️ Installation & Run
+```bash
+npm install
+node server.js
+
+Then open:
+http://localhost:3000
+
+🎓 Use Cases
+
+Medical & biology education
+
+Virtual anatomy labs
+
+AR-based classrooms
+
+Self-paced anatomy learning
+
+🌱 Future Enhancements
+
+Multi-organ systems (digestive, nervous, circulatory)
+
+Quiz overlays in AR
+
+Voice-guided dissection
+
+Multi-user collaborative AR labs
+
+Mobile app integration
+
+👩‍💻 Author
+
+Vrunda
+BE – Artificial Intelligence & Machine Learning
+Passionate about AR, AI, and immersive education
+
+📜 License
+
+This project is for educational and research purposes.
+
+---
+
+## Final polish ✨
+Rename repo to **Dissect-AR**  
+Add a demo GIF later  
+Pin this repo on your profile  
+
+If you want, next we can:
+- Turn this into a **research-grade project**
+- Add **screenshots + demo flow**
+- Prep it for **hackathons / papers / grants**
+
+Dissect AR deserves a spotlight 🔦🫀
